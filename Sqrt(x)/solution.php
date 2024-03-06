@@ -26,7 +26,7 @@ class Solution {
     }
 }
 
-$x = 25;
+$x = 16;
 $solution = new Solution();
 $result = $solution->mySqrt($x);
 echo "The squareroot of $x is: $result";
