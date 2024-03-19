@@ -33,6 +33,6 @@ class Solution {
 }
 $solution = new Solution();
 
-$strs = ["Flow", "float", "flight"];
+$strs = ["flow", "float", "flight"];
 echo $solution->longestCommonPrefix($strs) . "\n";
 ?>
