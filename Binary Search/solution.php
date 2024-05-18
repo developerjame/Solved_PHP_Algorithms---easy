@@ -16,4 +16,12 @@ function binarysearch($arr, $target){
     }
     return -1;
 }
+$arr = [2,3,5,7,8,11,15];
+$target = 5;
+$index = binarysearch($arr, $target);
+if($index != -1){
+    echo "The element $target is present at index: $index";
+}else{
+    echo "The element $target is not present in the array";
+}
 ?>
