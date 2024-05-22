@@ -27,5 +27,6 @@ $stack->push(8);
 $stack->push(2);
 
 echo "Popped element: ".$stack->pop()."<br>";
+echo "Popped element: ".$stack->pop()."<br>";
 echo "Is array empty? ".($stack->isEmpty() ? "Yes":"No");
 ?>
